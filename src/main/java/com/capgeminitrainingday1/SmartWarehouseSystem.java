@@ -115,5 +115,6 @@ public class SmartWarehouseSystem {
         WarehouseUtility.displayAllItems(groceriesStorage.getItems());
         WarehouseUtility.displayAllItems(furnitureStorage.getItems());
     }
+    
 }
 
