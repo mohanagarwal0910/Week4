@@ -13,6 +13,7 @@ public class ReverseList {
             left++;
             right--;
         }
+        
     }
     public static void main(String[] args) {
         ArrayList<Integer> list =new ArrayList();
