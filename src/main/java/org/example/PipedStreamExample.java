@@ -2,6 +2,7 @@ package org.example;
 
 import java.io.*;
 
+
 public class PipedStreamExample {
     public static void main(String[] args) {
         try {
