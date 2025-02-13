@@ -10,6 +10,7 @@ public class RemoveDuplicates {
                 result.add(num);
             }
         }
+        
         return result;
     }
     public static void main(String[] args) {
