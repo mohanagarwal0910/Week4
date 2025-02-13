@@ -9,6 +9,7 @@ public class UserInfoToFile {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
              FileWriter writer = new FileWriter(fileName, true)) { // Append mode
 
+            
             // Read user input
             System.out.print("Enter your name: ");
             String name = reader.readLine();
