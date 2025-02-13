@@ -8,6 +8,7 @@ class Policy implements Comparable<Policy> {
     private LocalDate expiryDate;
     private String coverageType;
     private double premiumAmount;
+    
 
     public Policy(String policyNumber, String policyHolderName, LocalDate expiryDate, String coverageType, double premiumAmount) {
         this.policyNumber = policyNumber;
