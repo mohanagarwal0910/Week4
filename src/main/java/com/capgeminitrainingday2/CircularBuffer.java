@@ -18,6 +18,7 @@
                 size++;
             }
 
+            
             buffer[tail] = value;
             tail = (tail + 1) % capacity; // Move tail forward
         }
