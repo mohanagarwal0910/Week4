@@ -8,6 +8,7 @@ public class WordFrequencyCounter {
 
         try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
             String line;
+            
             while ((line = reader.readLine()) != null) {
                 // Normalize text: convert to lowercase and remove punctuation
                 line = line.toLowerCase().replaceAll("[^a-zA-Z0-9 ]", "");
