@@ -22,7 +22,6 @@ public class NthFromEnd {
             first.next();
             second.next();
         }
-
         return second.next();
     }
     public static void main(String[] args) {
