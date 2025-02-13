@@ -10,6 +10,7 @@ public class FileCopy {
         try (FileInputStream fis = new FileInputStream(sourceFile);
              FileOutputStream fos = new FileOutputStream(destinationFile)) {
 
+            
             int data;
             while ((data = fis.read()) != -1) {
                 fos.write(data);
