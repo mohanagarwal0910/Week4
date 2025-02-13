@@ -7,6 +7,7 @@ public class RotateElement {
         if (n == 0) {
             return;
         }
+        
         // Step 1: Reverse the first k elements
         reverse(list, 0, k - 1);
         // Step 2: Reverse the remaining elements
