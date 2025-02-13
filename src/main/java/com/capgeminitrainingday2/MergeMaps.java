@@ -13,6 +13,7 @@ public class MergeMaps {
         }
         return mergedMap;
     }
+    
     public static void main(String[] args) {
         Map<String, Integer> map1 = new HashMap<>();
         map1.put("A", 1);
