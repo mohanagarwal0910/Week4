@@ -9,6 +9,7 @@ public class VotingSystem {
         voteOrder.put(candidate, voteOrder.getOrDefault(candidate, 0) + 1);
         sortedResults.put(candidate, sortedResults.getOrDefault(candidate, 0) + 1);
     }
+    
     // Display votes in order of voting
     public void displayVoteOrder() {
         System.out.println("\nVotes in Order of Voting:");
