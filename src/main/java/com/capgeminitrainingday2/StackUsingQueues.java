@@ -59,4 +59,3 @@ public class StackUsingQueues {
         System.out.println("Is stack empty? " + stack.isEmpty());
     }
 }
-
