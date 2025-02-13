@@ -11,6 +11,7 @@ class Employee implements Serializable {
     private String department;
     private double salary;
 
+    
     // Constructor
     public Employee(int id, String name, String department, double salary) {
         this.id = id;
