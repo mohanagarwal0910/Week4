@@ -23,4 +23,3 @@ public class InvertMap {
         System.out.println(invertMap(inputMap));
     }
 }
-
