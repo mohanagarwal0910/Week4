@@ -21,7 +21,7 @@ public class BankingSystem {
         sortedAccounts.put(newBalance, accountNumber);
         System.out.println("Deposited " + amount + " to account " + accountNumber);
     }
-    // Request a withdrawal
+    // Request withdrawal
     public void requestWithdrawal(int accountNumber) {
         if (!accounts.containsKey(accountNumber)) {
             System.out.println("Account not found.");
