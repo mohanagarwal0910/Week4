@@ -25,6 +25,7 @@ public class ShoppingCart {
         } else {
             System.out.println("Product not found in cart");
         }
+        
     }
     // Display cart in order of addition
     public void displayCart() {
