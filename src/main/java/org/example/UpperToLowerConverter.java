@@ -8,6 +8,7 @@ public class UpperToLowerConverter {
         String outputFile = "C:\\Week4Day3\\src\\main\\java\\org\\example\\output.txt"; // Change this to your output file
 
         try {
+            
             convertUppercaseToLowercase(inputFile, outputFile);
             System.out.println("File conversion completed successfully!");
         } catch (IOException e) {
