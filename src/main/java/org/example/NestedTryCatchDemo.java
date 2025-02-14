@@ -9,7 +9,6 @@ public class NestedTryCatchDemo {
         int index = scanner.nextInt();
         System.out.print("Enter divisor: ");
         int divisor = scanner.nextInt();
-
         try {
             try {
                 int value = numbers[index]; // Attempt to access index
