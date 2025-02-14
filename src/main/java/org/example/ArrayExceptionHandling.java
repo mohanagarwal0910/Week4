@@ -6,6 +6,7 @@ public class ArrayExceptionHandling {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        
         try {
             // Accept array size and elements
             System.out.print("Enter the size of the array: ");
