@@ -6,6 +6,7 @@ import java.io.IOException;
 public class CheckedExceptionExample {
     public static void main(String[] args){
 
+        
         String filePath = "C:\\Week4Day4\\src\\main\\java\\org\\example\\data.txt";
 
         try(FileReader fr = new FileReader(filePath);
