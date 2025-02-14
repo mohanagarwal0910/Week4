@@ -9,6 +9,7 @@
         }
     }
 
+
     public class AgeValidation {
         // Method to validate age
         public static void validateAge(int age) throws InvalidAgeException {
